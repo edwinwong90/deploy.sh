@@ -32,7 +32,7 @@ REPLACE=""
 REPO_FOLDER_NAME=${REPO_NAME//$FIND/$REPLACE}
 
 # git clone repo
-sudo git clone https://edwinwong1990@bitbucket.org/edwinwong1990/weilibaocn-nuxt.git
+sudo git clone $REPO_URL
 
 # rename it to naming convention folder name
 sudo mv $REPO_FOLDER_NAME $RELEASE_APP_FOLDER
